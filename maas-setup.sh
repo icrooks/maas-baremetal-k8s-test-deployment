@@ -15,7 +15,7 @@ sudo snap install maas-test-db
 
 # clone the git repository
 cd ~
-git clone https://github.com/antongisli/maas-baremetal-k8s-tutorial.git
+git clone https://github.com/icrooks/maas-baremetal-k8s-test-deployment.git
 
 # get local interface name (this assumes a single default route is present)
 export INTERFACE=$(ip route | grep default | cut -d ' ' -f 5)
